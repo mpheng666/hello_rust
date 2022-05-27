@@ -1,0 +1,17 @@
+# TOML = Tom's Obvious, minimal language, cargo config format
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+# use 'cargo build' to compile
+# executable is created in <package>/target/debug/*
+# cargo.lock is created to keep track dependencie, do not manually change the file
+# Too troublesome to build and run? Do 'cargo run' instead!
+# use 'cargo check' to check compilatopn without generating binaries, much faster for debugging!
+# use 'cargo build --release' to create optimized binaries!
