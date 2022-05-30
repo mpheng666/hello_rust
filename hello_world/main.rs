@@ -4,3 +4,6 @@ fn main() {
     println!("Hello, world!");
     // And yes a semicolon is needed
 }
+
+
+// 'rustc' is used to compile the code
